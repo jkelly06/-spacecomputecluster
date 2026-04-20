@@ -1,20 +1,21 @@
-# Orbital Infrastructure Stack (2026)
+# spacecomputecluster.com // orbital supercomputing stack
 
 ![Market Status](https://img.shields.io/badge/Status-Acquisition_Open-00d1ff?style=for-the-badge)
-![Sector](https://img.shields.io/badge/Industry-Aerospace_Compute-white?style=for-the-badge)
+![Tech Tier](https://img.shields.io/badge/Tier-Hyperscale_Orbital-white?style=for-the-badge)
 
-## Strategic Assets
-* **spacecomputenode.com** (Primary Anchor)
-* **spacecomputecluster.com** (Supercomputing & GPU Arrays)
-* **spaceinferencenode.com** (Edge-AI Execution)
-* **orbitalcomputenode.com** (Aerospace/Industrial Standard)
+## 🛰️ the "cluster" advantage
+as terrestrial data centers reach the "power wall," the **space compute cluster** provides the solution: decentralized, virtualized supercomputing at the orbital edge. 
 
-## Market Thesis
-In the Q2 2026 landscape, the convergence of the **SpaceX IPO** and the emergence of **VLEO Data Constellations** has created a critical demand for hardware sovereignty. This portfolio secures the naming rights and brand authority for the physical hardware layer of the orbital cloud.
+### strategic assets in this stack:
+* **spacecomputecluster.com (primary)** – the brand for multi-satellite gpu orchestration.
+* **spacecomputenode.com** – the physical hardware units forming the cluster.
+* **spaceinferencenode.com** – specialized edge-execution for real-time ai.
+* **orbitalcomputenode.com** – industrial/defense grade hardware standards.
 
-## Contact & Acquisition
-Inquiries are processed via [ceall06@proton.me](mailto:ceall06@proton.me).
-Detailed prospectus available upon entity verification.
+## 📈 market thesis: 2026
+with the **spacex ipo** formalizing the space economy, "clusters" have become the sought-after infrastructure for hyperscalers. owning the terminology for clustered orbital compute is owning the real estate of the 24/7 carbon-free compute era.
 
----
-*© 2026 Orbital Infrastructure Holdings. All rights reserved.*
+## 🤝 acquisition & transfer
+principal: jkelly06  
+direct inquiry: [ceall06@proton.me](mailto:ceall06@proton.me)  
+*secure institutional transfer via escrow.com or sedo.*
