@@ -16,6 +16,6 @@ as terrestrial data centers reach the "power wall," the **space compute cluster*
 with the **spacex ipo** formalizing the space economy, "clusters" have become the sought-after infrastructure for hyperscalers. owning the terminology for clustered orbital compute is owning the real estate of the 24/7 carbon-free compute era.
 
 ## 🤝 acquisition & transfer
-principal: jkelly06  
+principal: john kelly 
 direct inquiry: [ceall06@proton.me](mailto:ceall06@proton.me)  
 *secure institutional transfer via escrow.com or sedo.*
