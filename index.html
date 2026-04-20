@@ -1,6 +1,36 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceComputeCluster.com | Strategic Orbital Infrastructure Asset</title>
+    <meta name="description" content="SpaceComputeCluster.com: A category-defining domain for space-based compute infrastructure, orbital AI clusters, and satellite-linked networks.">
+    <meta name="keywords" content="Space Compute Cluster, Orbital Infrastructure, Space AI, Satellite Computing, Off-earth Infrastructure, Hardware Sovereignty, 2026 Space Economy">
+    
+    <meta property="og:title" content="SpaceComputeCluster.com | System-Level Orbital Identity">
+    <meta property="og:description" content="Strategic acquisition opportunity for the system layer of space-based compute infrastructure.">
+    <meta property="og:image" content="orbital_sovereignty_stack.png">
+    <meta property="og:type" content="website">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "SpaceComputeCluster.com",
+      "description": "Category-defining domain for space-based compute infrastructure and AI cluster systems.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Orbital Infrastructure Holdings"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/LimitedAvailability",
+        "url": "https://spacecomputecluster.com",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1R2F29DEL"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -9,11 +39,6 @@
       gtag('config', 'G-D1R2F29DEL');
     </script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpaceComputeCluster.com | System-Level Identity</title>
-    <meta name="description" content="System-level identity for next-generation space-based compute infrastructure.">
-    
     <style>
         :root {
             --bg: #0b1020;
@@ -26,115 +51,134 @@
         body { margin: 0; font-family: 'Inter', Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
         .wrap { max-width: 860px; margin: auto; padding: 48px 20px; }
         
-        h1 { font-size: 38px; margin-bottom: 10px; letter-spacing: -1px; }
-        h2 { margin-top: 42px; font-size: 24px; border-bottom: 1px solid var(--border); padding-bottom: 8px; color: var(--accent); }
-        p, li { font-size: 17px; color: var(--text-dim); }
-        
-        .box { border: 1px solid var(--border); padding: 24px; border-radius: 10px; background: var(--box-bg); margin-top: 18px; }
-        .stack-img { width: 100%; border-radius: 10px; margin: 30px 0; border: 1px solid var(--border); }
-        
-        /* Portfolio Grid */
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 20px; }
-        .card { background: var(--box-bg); border: 1px solid var(--border); padding: 15px; border-radius: 8px; }
-        .card strong { display: block; color: var(--accent); font-size: 14px; }
-        .card span { font-size: 13px; color: var(--text-dim); }
+        /* Typography */
+        h1 { font-size: 38px; margin-bottom: 5px; letter-spacing: -1px; }
+        .subtitle { font-size: 20px; color: var(--accent); margin-bottom: 25px; font-weight: 400; }
+        h2 { margin-top: 45px; font-size: 22px; text-transform: uppercase; letter-spacing: 2px; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 10px; }
+        p, li { font-size: 18px; color: var(--text-dim); margin-bottom: 15px; }
+        strong { color: var(--text); }
 
-        /* Form Styling */
-        input, textarea { 
-            width: 100%; background: #070a14; border: 1px solid var(--border); 
-            padding: 12px; color: white; border-radius: 6px; margin-top: 10px; box-sizing: border-box;
-        }
-        .btn { 
-            background: var(--accent); color: #0b1020; border: none; padding: 15px 30px; 
-            border-radius: 6px; font-weight: bold; cursor: pointer; margin-top: 15px; width: 100%; 
-        }
+        /* UI Elements */
+        .box { border: 1px solid var(--border); padding: 24px; border-radius: 10px; background: var(--box-bg); margin: 25px 0; }
+        .stack-img { width: 100%; border-radius: 10px; margin: 30px 0; border: 1px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        
+        /* Inventory Grid */
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 30px 0; }
+        .card { background: var(--box-bg); border: 1px solid var(--border); padding: 20px; border-radius: 8px; }
+        .card strong { display: block; color: var(--accent); font-size: 15px; margin-bottom: 5px; }
+        .card span { font-size: 14px; color: var(--text-dim); }
 
-        /* Document Vault */
+        /* Inquiry Form */
+        .form-box { background: #070a14; padding: 30px; border-radius: 10px; border: 1px solid var(--accent); }
+        input, textarea { width: 100%; background: #111831; border: 1px solid var(--border); padding: 14px; color: white; border-radius: 6px; margin-bottom: 15px; box-sizing: border-box; font-size: 16px; }
+        .btn { background: var(--accent); color: #0b1020; border: none; padding: 18px; border-radius: 6px; font-weight: 900; cursor: pointer; width: 100%; text-transform: uppercase; letter-spacing: 1px; transition: 0.2s; }
+        .btn:hover { background: #fff; transform: translateY(-2px); }
+
+        /* Footer/Legal */
         .vault { border: 2px dashed var(--border); padding: 30px; text-align: center; margin-top: 50px; border-radius: 10px; }
+        a { color: var(--accent); text-decoration: none; font-weight: bold; }
+        .cta { margin-top: 35px; font-size: 20px; border-top: 1px solid var(--border); padding-top: 25px; }
+        .confidential { text-align: center; font-size: 12px; color: #5c6b89; margin-top: 60px; text-transform: uppercase; letter-spacing: 2px; }
         
-        a { color: var(--accent); text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        .cta { margin-top: 28px; font-weight: bold; font-size: 18px; }
-        footer { margin-top: 60px; font-size: 12px; color: #5c6b89; text-align: center; }
-        
-        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        @media (max-width: 600px) { h1 { font-size: 28px; } .grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 
 <body>
-<div class="wrap">
+<article class="wrap">
 
-    <h1>SpaceComputeCluster.com</h1>
-    <p>System-level identity for next-generation compute infrastructure.</p>
+    <header>
+        <h1>SpaceComputeCluster.com</h1>
+        <p class="subtitle">Category-defining domain for space-based compute infrastructure.</p>
+        <p>System-level identity for next-generation compute infrastructure.</p>
+    </header>
 
-    <div class="box">
+    <section class="box">
         <strong>Designed for:</strong>
-        <ul>
+        <ul style="margin-top:15px;">
             <li>Orbital compute platforms</li>
             <li>Distributed AI cluster systems</li>
             <li>Satellite-linked infrastructure networks</li>
             <li>Off-earth compute deployment models</li>
         </ul>
-    </div>
+    </section>
 
-    <h2>Executive Thesis</h2>
-    <p>Artificial intelligence is entering an infrastructure transition.</p>
-    <p>Clusters—not individual systems—now define performance and scalability.</p>
-    <p>At the same time, terrestrial constraints are increasing:</p>
-    <ul>
-        <li>power limitations</li>
-        <li>cooling challenges</li>
-        <li>infrastructure bottlenecks</li>
-    </ul>
-    <p>This creates a structural shift:</p>
-    <p><strong>Compute is expanding beyond Earth.</strong></p>
+    <section>
+        <h2>EXECUTIVE THESIS</h2>
+        <p>Artificial intelligence is entering an infrastructure transition.</p>
+        <p>Clusters—not individual systems—now define performance and scalability.</p>
+        <p>At the same time, terrestrial constraints are increasing:</p>
+        <ul>
+            <li>power limitations</li>
+            <li>cooling challenges</li>
+            <li>infrastructure bottlenecks</li>
+        </ul>
+        <p>This creates a structural shift:</p>
+        <p><strong>Compute is expanding beyond Earth.</strong></p>
+    </section>
 
-    <img src="orbital_sovereignty_stack.png" alt="Orbital Infrastructure Stack" class="stack-img">
+    <img src="orbital_sovereignty_stack.png" alt="Strategic Orbital Supercomputing Stack Visualization" class="stack-img">
 
-    <h2>Infrastructure Model</h2>
-    <ul>
-        <li>distributed workloads</li>
-        <li>redundancy and resilience</li>
-        <li>scalable performance</li>
-        <li>global compute coverage</li>
-    </ul>
-    <p>In space-based environments, clusters become the dominant architecture.</p>
+    <section>
+        <h2>INFRASTRUCTURE MODEL</h2>
+        <ul>
+            <li>distributed workloads</li>
+            <li>redundancy and resilience</li>
+            <li>scalable performance</li>
+            <li>global compute coverage</li>
+        </ul>
+        <p>In space-based environments, clusters become the dominant architecture.</p>
+    </section>
 
-    <h2>Positioning</h2>
-    <p>SpaceComputeCluster.com represents the system layer of space-based compute infrastructure.</p>
-    <p>Early acquisition secures platform identity, architectural positioning, and long-term control.</p>
+    <section>
+        <h2>POSITIONING</h2>
+        <p>SpaceComputeCluster.com represents: <strong>the system layer of space-based compute infrastructure</strong></p>
+        <p>As platforms are deployed, naming becomes fixed. Early acquisition secures:</p>
+        <ul>
+            <li>platform identity</li>
+            <li>architectural positioning</li>
+            <li>long-term control</li>
+        </ul>
+    </section>
 
-    <h2>Portfolio Asset Inventory</h2>
-    <div class="grid">
-        <div class="card"><strong>spacecomputecluster.com</strong><span>System-layer orchestration.</span></div>
-        <div class="card"><strong>spacecomputenode.com</strong><span>Hardware sovereignty.</span></div>
-        <div class="card"><strong>spaceinferencenode.com</strong><span>Edge AI execution.</span></div>
-        <div class="card"><strong>orbitalcomputenode.com</strong><span>Industrial standard.</span></div>
-    </div>
+    <section>
+        <h2>Verified Portfolio Assets</h2>
+        <div class="grid">
+            <div class="card"><strong>spacecomputecluster.com</strong><span>System-layer orchestration.</span></div>
+            <div class="card"><strong>spacecomputenode.com</strong><span>Hardware sovereignty.</span></div>
+            <div class="card"><strong>spaceinferencenode.com</strong><span>Edge AI execution.</span></div>
+            <div class="card"><strong>orbitalcomputenode.com</strong><span>Industrial standard.</span></div>
+        </div>
+    </section>
 
-    <h2>Acquisition</h2>
-    <p>Strategic asset. Serious inquiries only.</p>
-    
-    <div class="box">
-        <form action="https://formspree.io/f/xdaprabp" method="POST">
-            <input type="text" name="name" placeholder="Organization Name" required>
-            <input type="email" name="_replyto" placeholder="Executive Email Address" required>
-            <textarea name="message" rows="3" placeholder="Scope of Interest"></textarea>
-            <button type="submit" class="btn">Request Private Memorandum</button>
-        </form>
-    </div>
+    <section>
+        <h2>ACQUISITION</h2>
+        <p>Strategic asset. Serious inquiries only.</p>
+        <div class="form-box">
+            <form action="https://formspree.io/f/xdaprabp" method="POST">
+                <input type="text" name="entity" placeholder="Inquiring Entity / Firm" required>
+                <input type="email" name="_replyto" placeholder="Executive Email" required>
+                <textarea name="message" rows="4" placeholder="Brief scope of inquiry (Full Stack or Targeted Asset)"></textarea>
+                <button type="submit" class="btn">Initiate Formal Inquiry</button>
+            </form>
+        </div>
+    </section>
 
     <div class="vault">
         <strong>ORBITAL & ATOMIC INFRASTRUCTURE STACK</strong><br>
-        <p style="font-size: 14px;">Official Strategic Prospectus // FY2026 Release</p>
-        <a href="orbital-atomic-infrastructure-stack.pdf" target="_blank">Download Full Memorandum (PDF)</a>
+        <p style="font-size: 14px; margin-top:10px;">Official Strategic Prospectus // FY2026 // Secured Document</p>
+        <a href="orbital-atomic-infrastructure-stack.pdf" target="_blank">Download Full Technical Memorandum (PDF)</a>
     </div>
 
     <p class="cta">
         Contact: <a href="mailto:ceall06@proton.me">ceall06@proton.me</a>
     </p>
 
-    <footer>© 2026 Orbital Infrastructure Holdings • Principal: jkelly06</footer>
-</div>
+    <footer class="confidential">
+        SpaceComputeCluster.com • Confidential • Strategic asset • © 2026
+    </footer>
+
+</article>
 </body>
 </html>
+
