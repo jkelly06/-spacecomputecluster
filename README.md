@@ -17,5 +17,5 @@ with the **spacex ipo** formalizing the space economy, "clusters" have become th
 
 ## 🤝 acquisition & transfer
 principal: john kelly 
-direct inquiry: [ceall06@proton.me](mailto:ceall06@proton.me)  
+direct inquiry: [john@SpaceComputeCluster.com](mailto:john@SpaceComputeCluster.com)  
 *secure institutional transfer via escrow.com or sedo.*
