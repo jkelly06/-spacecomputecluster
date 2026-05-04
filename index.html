@@ -1,190 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google Analytics Integration -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D1R2F29DEL"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-D1R2F29DEL');
     </script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sovereign Orbital Infrastructure Stack | Strategic Portfolio 2026</title>
-    <meta name="description" content="Strategic acquisition of category-defining assets for the orbital compute and AI inference economy.">
+    
+    <!-- Heavy SEO Meta Tags -->
+    <title>SpaceComputeCluster.com | Strategic Orbital Infrastructure Stack 2026</title>
+    <meta name="description" content="SpaceComputeCluster.com: Category-defining domain and system-level identity for next-generation orbital compute platforms and distributed AI cluster systems.">
+    <meta name="keywords" content="Space Compute Cluster, Orbital AI, Satellite Infrastructure, Off-earth Compute, Hardware Sovereignty, Space Economy 2026, Orbital Supercomputing">
+    
+    <!-- Open Graph (Social SEO) -->
+    <meta property="og:title" content="SpaceComputeCluster.com | Orbital Infrastructure Identity">
+    <meta property="og:description" content="Strategic acquisition of the system layer for the off-planet compute economy.">
+    <meta property="og:image" content="orbital_sovereignty_stack.png">
+    <meta property="og:type" content="website">
+
+    <!-- JSON-LD Structured Data (Institutional SEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "SpaceComputeCluster.com",
+      "description": "System-level identity for next-generation space-based compute infrastructure.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Orbital Infrastructure Holdings"
+      },
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/LimitedAvailability",
+        "url": "https://spacecomputecluster.com",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --bg: #050505;
-            --card: #0d0d0f;
+            --box-bg: #0d0d0f;
             --accent: #00d1ff;
             --text: #ffffff;
             --text-dim: #9ca3af;
             --border: #1f2937;
         }
-        body { 
-            background-color: var(--bg); 
-            color: var(--text); 
-            font-family: 'Inter', sans-serif; 
-            margin: 0; 
-            line-height: 1.6; 
-            -webkit-font-smoothing: antialiased; 
-        }
-        .container { max-width: 1100px; margin: 0 auto; padding: 80px 24px; }
+        body { background-color: var(--bg); color: var(--text); font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 80px 24px; }
         
-        /* Header Section */
-        header { border-bottom: 1px solid var(--border); padding-bottom: 60px; margin-bottom: 60px; }
-        .badge { 
-            display: inline-flex; 
-            background: rgba(0, 209, 255, 0.1); 
-            border: 1px solid var(--accent); 
-            color: var(--accent); 
-            padding: 6px 14px; 
-            border-radius: 100px; 
-            font-family: 'Roboto Mono', monospace; 
-            font-size: 0.75rem; 
-            text-transform: uppercase; 
-            margin-bottom: 30px; 
-            letter-spacing: 1px; 
-        }
-        h1 { font-size: clamp(2.5rem, 7vw, 4rem); font-weight: 900; letter-spacing: -3px; line-height: 1.1; margin: 0 0 24px; }
-        .hero-lead { font-size: 1.25rem; color: var(--text-dim); max-width: 850px; }
+        header { border-bottom: 1px solid var(--border); padding-bottom: 40px; margin-bottom: 60px; }
+        h1 { font-size: clamp(2.2rem, 6vw, 4rem); font-weight: 900; letter-spacing: -3px; line-height: 1.1; margin: 0; }
+        .subtitle { font-size: 1.25rem; color: var(--accent); margin-top: 10px; font-family: 'Roboto Mono', monospace; }
         
-        /* Grid Layout */
-        .section-header { 
-            font-family: 'Roboto Mono', monospace; 
-            font-size: 0.85rem; 
-            color: var(--accent); 
-            text-transform: uppercase; 
-            letter-spacing: 3px; 
-            margin: 80px 0 30px; 
-            display: block; 
-            border-left: 3px solid var(--accent); 
-            padding-left: 15px; 
-        }
-        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
-        .card { 
-            background: var(--card); 
-            border: 1px solid var(--border); 
-            padding: 40px; 
-            border-radius: 16px; 
-            transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
-        }
-        .card:hover { border-color: var(--accent); background: #111114; transform: translateY(-4px); }
-        .domain-name { font-family: 'Roboto Mono', monospace; font-size: 1.2rem; font-weight: 700; color: var(--text); margin-bottom: 12px; display: block; }
-        .domain-desc { font-size: 0.9rem; color: var(--text-dim); }
+        .box { border: 1px solid var(--border); padding: 30px; border-radius: 12px; background: var(--box-bg); margin: 30px 0; }
+        h2 { font-family: 'Roboto Mono', monospace; font-size: 0.85rem; color: var(--accent); text-transform: uppercase; letter-spacing: 3px; margin-top: 60px; margin-bottom: 20px; border-left: 3px solid var(--accent); padding-left: 15px; }
+        
+        ul { list-style: none; padding: 0; }
+        ul li { margin-bottom: 12px; color: var(--text-dim); display: flex; align-items: flex-start; font-size: 1.1rem; }
+        ul li::before { content: "•"; color: var(--accent); margin-right: 15px; font-weight: bold; }
 
-        /* Inquiry Form */
-        .cta-section { 
-            background: linear-gradient(180deg, #0d0d0f 0%, #050505 100%); 
-            border: 1px solid var(--border); 
-            padding: 80px 40px; 
-            border-radius: 24px; 
-            margin-top: 100px; 
-            text-align: center; 
-        }
-        form { max-width: 500px; margin: 40px auto 0; text-align: left; }
-        .form-group { margin-bottom: 20px; }
-        label { 
-            display: block; 
-            font-family: 'Roboto Mono', monospace; 
-            font-size: 0.7rem; 
-            color: var(--accent); 
-            margin-bottom: 8px; 
-            text-transform: uppercase; 
-        }
-        input, textarea { 
-            width: 100%; 
-            background: #161618; 
-            border: 1px solid var(--border); 
-            padding: 14px; 
-            color: white; 
-            border-radius: 8px; 
-            font-family: 'Inter', sans-serif; 
-            box-sizing: border-box; 
-        }
-        input:focus, textarea:focus { border-color: var(--accent); outline: none; }
-        .btn { 
-            width: 100%; 
-            background: var(--accent); 
-            color: black; 
-            border: none; 
-            padding: 20px; 
-            border-radius: 8px; 
-            font-weight: 900; 
-            font-size: 1rem; 
-            cursor: pointer; 
-            transition: 0.2s; 
-            text-transform: uppercase; 
-            letter-spacing: 1px; 
-        }
+        .stack-img { width: 100%; border-radius: 12px; border: 1px solid var(--border); margin: 40px 0; box-shadow: 0 10px 40px rgba(0,0,0,0.5); }
+        
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin: 40px 0; }
+        .card { background: var(--box-bg); border: 1px solid var(--border); padding: 30px; border-radius: 12px; transition: 0.3s; }
+        .card:hover { border-color: var(--accent); transform: translateY(-4px); }
+        .domain-name { font-family: 'Roboto Mono', monospace; font-weight: 700; color: var(--text); display: block; margin-bottom: 10px; }
+
+        .form-box { background: linear-gradient(180deg, #0d0d0f 0%, #050505 100%); padding: 60px 40px; border-radius: 24px; border: 1px solid var(--border); margin-top: 100px; text-align: center; }
+        input, textarea { width: 100%; background: #161618; border: 1px solid var(--border); padding: 16px; color: white; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+        .btn { background: var(--accent); color: black; border: none; padding: 20px; border-radius: 8px; font-weight: 900; width: 100%; cursor: pointer; text-transform: uppercase; letter-spacing: 1px; transition: 0.2s; }
         .btn:hover { background: white; transform: scale(1.02); }
-        .direct-email { 
-            margin-top: 35px; 
-            display: block; 
-            font-family: 'Roboto Mono', monospace; 
-            color: var(--text-dim); 
-            text-decoration: none; 
-            font-size: 0.85rem; 
-        }
 
-        footer { 
-            margin-top: 100px; 
-            text-align: center; 
-            font-family: 'Roboto Mono', monospace; 
-            font-size: 0.75rem; 
-            color: var(--text-dim); 
-            border-top: 1px solid var(--border); 
-            padding-top: 40px; 
-        }
-        @media (max-width: 768px) { h1 { font-size: 2.8rem; } .grid { grid-template-columns: 1fr; } }
+        .vault { border: 2px dashed var(--border); padding: 40px; text-align: center; margin-top: 60px; border-radius: 16px; background: rgba(0, 209, 255, 0.02); }
+        .cta-email { display: block; margin-top: 30px; font-family: 'Roboto Mono', monospace; color: var(--accent); text-decoration: none; font-weight: bold; }
+        
+        footer { margin-top: 100px; text-align: center; font-family: 'Roboto Mono', monospace; font-size: 0.75rem; color: var(--text-dim); border-top: 1px solid var(--border); padding-top: 40px; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="badge">Institutional Portfolio // FY2026 Acquisition</div>
-            <h1>Orbital Infrastructure Stack.</h1>
-            <p class="hero-lead">The definitive hardware and orchestration layers for the off-planet economy. Engineered for hardware sovereignty, high-density inference, and orbital supercomputing resilience.</p>
-        </header>
 
-        <span class="section-header">Primary Architecture // Hardware</span>
-        <div class="grid">
-            <div class="card"><span class="domain-name">SpaceComputeNode.com</span><p class="domain-desc">Primary anchor for modular off-planet hardware and orbital hardware sovereignty.</p></div>
-            <div class="card"><span class="domain-name">SpaceComputeCluster.com</span><p class="domain-desc">Hyperscale virtual GPU arrays and multi-satellite supercomputing clusters.</p></div>
-            <div class="card"><span class="domain-name">SpaceInferenceNode.com</span><p class="domain-desc">Optimized for edge-AI execution at the orbital edge to minimize latency.</p></div>
-            <div class="card"><span class="domain-name">OrbitalComputeNode.com</span><p class="domain-desc">Technical industrial standard for aerospace primes and sda-compliant defense hardware.</p></div>
-        </div>
+<article class="container">
+    <header>
+        <h1>SpaceComputeCluster.com</h1>
+        <p class="subtitle">Category-defining domain for space-based compute infrastructure.</p>
+        <p style="font-size: 1.2rem; color: var(--text-dim);">System-level identity for next-generation compute infrastructure.</p>
+    </header>
 
-        <span class="section-header">Systems & Orchestration</span>
-        <div class="grid">
-            <div class="card"><span class="domain-name">SpaceComputePlatform.com</span><p class="domain-desc">The orchestration layer managing distributed workloads and constellation OS protocols.</p></div>
-            <div class="card"><span class="domain-name">SpaceComputeCampus.com</span><p class="domain-desc">Strategic physical bridge for ground-station infrastructure and downlink hubs.</p></div>
-        </div>
+    <section class="box">
+        <strong style="color: var(--accent); text-transform: uppercase; letter-spacing: 1px; font-size: 0.8rem;">Designed for:</strong>
+        <ul style="margin-top:20px;">
+            <li>Orbital compute platforms</li>
+            <li>Distributed AI cluster systems</li>
+            <li>Satellite-linked infrastructure networks</li>
+            <li>Off-earth compute deployment models</li>
+        </ul>
+    </section>
 
-        <section class="cta-section">
-            <h2>Acquisition Inquiry</h2>
-            <form action="https://formspree.io/f/xdaprabp" method="POST">
-                <div class="form-group">
-                    <label>Inquiring Entity</label>
-                    <input type="text" name="company" placeholder="Organization/Firm" required>
-                </div>
-                <div class="form-group">
-                    <label>Principal Correspondence</label>
-                    <input type="email" name="_replyto" placeholder="executive@company.com" required>
-                </div>
-                <div class="form-group">
-                    <label>Portfolio Interest</label>
-                    <textarea name="message" rows="3" placeholder="Scope of inquiry (Full Stack / Targeted Assets)"></textarea>
-                </div>
-                <button type="submit" class="btn">Request Private Memorandum</button>
-            </form>
-            <a href="mailto:john@SpaceComputeCluster.com" class="direct-email">Secured Correspondence: john@SpaceComputeCluster.com</a>
-        </section>
+    <section>
+        <h2>EXECUTIVE THESIS</h2>
+        <p>Artificial intelligence is entering a new infrastructure phase.</p>
+        <p>Clusters—not individual systems—now define performance and scalability.</p>
+        <p>At the same time, terrestrial constraints are increasing:</p>
+        <ul>
+            <li>power limitations</li>
+            <li>cooling challenges</li>
+            <li>infrastructure bottlenecks</li>
+        </ul>
+        <p>This creates a structural shift:</p>
+        <p><strong style="font-size: 1.4rem; color: var(--accent);">Compute is expanding beyond Earth.</strong></p>
+    </section>
 
-        <footer>© 2026 Orbital Infrastructure Holdings • Secure Transfer via Escrow / Sedo</footer>
+    <!-- Visual Asset (orbital_sovereignty_stack.png) -->
+    <img src="orbital_sovereignty_stack.png" alt="Strategic Orbital Supercomputing Stack Visualization" class="stack-img">
+
+    <section>
+        <h2>INFRASTRUCTURE MODEL</h2>
+        <ul>
+            <li>distributed workloads</li>
+            <li>redundancy and resilience</li>
+            <li>scalable performance</li>
+            <li>global compute coverage</li>
+        </ul>
+        <p>In space-based environments, clusters become the dominant architecture.</p>
+    </section>
+
+    <section>
+        <h2>POSITIONING</h2>
+        <p>SpaceComputeCluster.com represents: <strong style="color: var(--text);">the system layer of space-based compute infrastructure</strong></p>
+        <p>As platforms are deployed, naming becomes fixed. Early acquisition secures:</p>
+        <ul>
+            <li>platform identity</li>
+            <li>architectural positioning</li>
+            <li>long-term control</li>
+        </ul>
+    </section>
+
+    <h2>Verified Portfolio Assets</h2>
+    <div class="grid">
+        <div class="card"><span class="domain-name">spacecomputecluster.com</span><p style="font-size: 0.85rem; color: var(--text-dim); margin:0;">System-layer orchestration for orbital AI clusters.</p></div>
+        <div class="card"><span class="domain-name">spacecomputenode.com</span><p style="font-size: 0.85rem; color: var(--text-dim); margin:0;">Physical hardware sovereignty for modular nodes.</p></div>
+        <div class="card"><span class="domain-name">spaceinferencenode.com</span><p style="font-size: 0.85rem; color: var(--text-dim); margin:0;">Edge AI execution at the orbital frontier.</p></div>
+        <div class="card"><span class="domain-name">orbitalcomputenode.com</span><p style="font-size: 0.85rem; color: var(--text-dim); margin:0;">Technical standard for aerospace primes.</p></div>
     </div>
+
+    <section class="form-box">
+        <h2>ACQUISITION</h2>
+        <p style="color: var(--text-dim);">Strategic asset. Serious inquiries only.</p>
+        <form action="https://formspree.io/f/xdaprabp" method="POST">
+            <input type="text" name="entity" placeholder="Inquiring Entity / Firm" required>
+            <input type="email" name="_replyto" placeholder="Executive Email" required>
+            <textarea name="message" rows="4" placeholder="Brief scope of inquiry (Full Stack or Targeted Asset)"></textarea>
+            <button type="submit" class="btn">Initiate Formal Inquiry</button>
+        </form>
+        <a href="mailto:john@SpaceComputeCluster.com" class="cta-email">Direct Correspondence: john@SpaceComputeCluster.com</a>
+    </section>
+
+    <div class="vault">
+        <strong>ORBITAL & ATOMIC INFRASTRUCTURE STACK</strong><br>
+        <p style="font-size: 14px; margin-top:10px; color: var(--text-dim);">Official Strategic Prospectus // FY2026 // Secured Document</p>
+        <a href="orbital-atomic-infrastructure-stack.pdf" target="_blank" style="color: var(--accent); font-weight: bold; text-decoration: none;">Download Technical Memorandum (PDF)</a>
+    </div>
+
+    <footer>
+        SpaceComputeCluster.com • Confidential • Strategic asset • © 2026<br>
+        Secured Transfer via Escrow / Sedo
+    </footer>
+</article>
+
 </body>
 </html>
